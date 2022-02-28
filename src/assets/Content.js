@@ -226,5 +226,81 @@ const batch2024=[
         linkdin:"",
         photo:""
     }
-}
+];
+const batch2018=[
+    {
+        name:"Shouvik Das",
+        department:"",
+        email:"",
+        linkdin:"",
+        photo:""
+
+    },{
+        name:"Shanmukh Shannu",
+        department:"",
+        email:"",
+        linkdin:"",
+        photo:""
+
+
+    },{
+        name:"Prateek Goyan",
+        department:"",
+        email:"",
+        linkdin:"",
+        photo:""
+
+        
+    },{
+        name:"Ashik Anand",
+        department:"",
+        email:"",
+        linkdin:"",
+        photo:""
+    },{
+        name:"Sunny Godhani",
+        department:"",
+        email:"",
+        linkdin:"",
+        photo:""
+
+    },{
+        name:"Shreyak Shende",
+        department:"",
+        email:"",
+        linkdin:"",
+        photo:""
+
+    },{
+        name:"Akshay Kaushik",
+        department:"",
+        email:"",
+        linkdin:"",
+        photo:""
+
+    },{
+        name:"Aman Sangal",
+        department:"",
+        email:"",
+        linkdin:"",
+        photo:""
+
+    },{
+        name:"Ayush Agarawal",
+        department:"",
+        email:"",
+        linkdin:"",
+        photo:""
+
+    }
+];
+const batch2017=[
+    {
+        name:"Vainkatesh Swami",
+        department:"",
+        email:"",
+        linkdin:"",
+        photo:""
+    }
+]
 
