@@ -32,3 +32,33 @@
 .hero-banner-sub-heading{
   font-size: 2rem;
 }
+
+.who-we-are-wrapper{
+  display: flex;
+  padding: 0 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5rem 0;
+}
+
+.who-we-are-heading{
+  font-size: 5rem;
+  margin: 0;
+}
+
+.who-we-are-sub-heading{
+  font-size: 1.2rem;
+}
+
+.who-we-are-content-wrapper{
+  width: 50%;
+  text-align: left;
+}
+
+.yt-vid{
+  width: 40%
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
