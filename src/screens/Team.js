@@ -28,8 +28,8 @@ export default function TeamGallery() {
 
   return (
     <div className="team-gallery-wrapper">
-      <p className="team-gallery-heading">Team Gallery</p>
-      <p className="team-gallery-sub-heading">Team Members</p>
+      <p className="team-gallery-heading">Team Members</p>
+      {/* <p className="team-gallery-sub-heading">Team Members</p> */}
       <p className="year-heading"> Batch of 2018 </p>
       <div className="wrap margin2rem center">
         {CONTENT.batch2022.map((details) => {
@@ -48,7 +48,7 @@ export default function TeamGallery() {
           return card(details);
         })}
       </div>
-      <p className="team-gallery-sub-heading">Alumni</p>
+      <p className="team-gallery-heading">Alumni</p>
       <p className="year-heading"> Batch of 2018 </p>
       <div className="wrap margin2rem center">
         {CONTENT.batch2018.map((details) => {
