@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from './screens/Home'
 import OurProjects from "./screens/OurProjects";
 import OurSponsors from './screens/OurSponsors'
-import TeamGallery from './screens/TeamGallery'
+import Team from './screens/Team'
 import ContactUs from './screens/ContactUs'
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
             element={<OurSponsors />}
           />
           <Route
-            path="/team-gallery"
-            element={<TeamGallery />}
+            path="/team"
+            element={<Team />}
           />
           <Route
             path="/contact-us"

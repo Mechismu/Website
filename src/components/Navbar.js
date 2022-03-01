@@ -14,13 +14,13 @@ export default function Navbar() {
           Home
         </Link>
         <Link className="navbar-link" to="/our-projects">
-          Our projects
+          Projects
         </Link>
         <Link className="navbar-link" to="/our-sponsors">
-          Our sponsors
+          Sponsors
         </Link>
-        <Link className="navbar-link" to="/team-gallery">
-          Team gallery
+        <Link className="navbar-link" to="/team">
+          Team
         </Link>
         <Link className="navbar-link" to="/contact-us">
           Contact us

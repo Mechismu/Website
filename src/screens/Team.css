@@ -1,0 +1,64 @@
+.team-gallery-heading{
+  font-size: 2rem;
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+
+.team-gallery-sub-heading{
+  font-size: 2rem;
+  margin: 1rem;
+  text-decoration: underline;
+}
+
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  border-radius: 10px;
+  border: 0.5px solid rgb(194, 194, 194);
+  margin: 1rem;
+}
+
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.year-heading{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.margin2rem{
+  margin: 0 2rem;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.card-image{
+  height: 300px;
+  width: 300px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-content{
+  font-size: 1rem;
+  margin: 5px;
+}
+
+.icon{
+  margin: 2px 8px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.sponsor-name{
+  font-size: 1.5rem;
+}

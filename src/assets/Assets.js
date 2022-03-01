@@ -16,10 +16,12 @@ import autodesk from './Sponsors/autodesk.jpg'
 import solidworks from './Sponsors/solidworks.png';
 
 
+import defaultImage from './photos/batch2022/defaultImage.jpeg';
+
 const ASSETS = {
   logo,
   heroBanner,
-  ansyslogo, 
+  ansyslogo,
   aranyalogo,
   Burnout,
   fmsci,
@@ -33,6 +35,7 @@ const ASSETS = {
   jktyre,
   autodesk,
   solidworks
+  defaultImage,
 };
 
 export default ASSETS
