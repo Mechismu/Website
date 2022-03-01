@@ -1,3 +1,5 @@
+import ASSETS from './Assets'
+
 const batch2022=[
     {
         name:"Akshay Kargaonkar",
@@ -304,3 +306,23 @@ const batch2017=[
     }
 ]
 
+const sponsors = [
+  {
+    name: "Ansys",
+    logo: ASSETS.ansyslogo,
+    website: "",
+    instagram: "",
+    facebook: "",
+  },
+];
+
+const CONTENT = {
+  batch2022,
+  batch2023,
+  batch2024,
+  batch2018,
+  batch2017,
+  sponsors,
+};
+
+export default CONTENT;
