@@ -13,6 +13,7 @@ import ricardo from './Sponsors/ricardo.png';
 import mathworks from './Sponsors/mathworks.png';
 import jktyre from './Sponsors/jktyre.jpg';
 import autodesk from './Sponsors/autodesk.jpg'
+import solidworks from './Sponsors/solidworks.png';
 
 
 const ASSETS = {
@@ -30,7 +31,8 @@ const ASSETS = {
   ricardo,
   mathworks,
   jktyre,
-  autodesk
+  autodesk,
+  solidworks
 };
 
 export default ASSETS
