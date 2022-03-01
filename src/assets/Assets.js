@@ -34,7 +34,7 @@ const ASSETS = {
   mathworks,
   jktyre,
   autodesk,
-  solidworks
+  solidworks,
   defaultImage,
 };
 
