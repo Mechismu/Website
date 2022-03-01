@@ -1,7 +1,8 @@
 import React from 'react'
 import "./OurSponsors.css";
 import ASSETS from "../assets/Assets";
-import CONTENT from '../assets/Content'
+import CONTENT from '../assets/Content';
+
 import {GoGlobe} from 'react-icons/go'
 import {RiInstagramFill} from 'react-icons/ri'
 import {FaFacebookSquare} from 'react-icons/fa'

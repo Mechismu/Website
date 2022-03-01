@@ -14,6 +14,21 @@ import mathworks from './Sponsors/mathworks.png';
 import jktyre from './Sponsors/jktyre.jpg';
 import autodesk from './Sponsors/autodesk.jpg'
 import solidworks from './Sponsors/solidworks.png';
+import sumansir2022 from './photos/batch2022/sumansir2022.png';
+import vinaysir2022 from './photos/batch2022/vinaysir2022.jfif';
+import akshay2022 from './photos/batch2022/akshay2022.jfif';
+import badisir2022 from './photos/batch2022/badisir2022.jfif';
+import harshasir2022 from './photos/batch2022/harshasir2022.jfif';
+import prateeksir2022 from './photos/batch2022/prateeksir2022.jfif';
+import sagarsir2022 from './photos/batch2022/sagarsir2022.jfif';
+import sanjaysir2022 from './photos/batch2022/sanjaysir2022.jfif';
+import sudeptosir2022 from './photos/batch2022/sudeptosir2022.jfif';
+import manmohansir2022 from './photos/batch2022/manmohansir2022.jfif';
+import sankalpsir2022 from './photos/batch2022/sankalpsir2022.jfif';
+
+
+
+
 
 
 import defaultImage from './photos/batch2022/defaultImage.jpeg';
@@ -34,8 +49,20 @@ const ASSETS = {
   mathworks,
   jktyre,
   autodesk,
-  solidworks
-  defaultImage,
+  solidworks,
+  sumansir2022,vinaysir2022,
+  akshay2022,
+  badisir2022,
+  harshasir2022,
+  manmohansir2022,
+  prateeksir2022,
+  sagarsir2022,
+  sanjaysir2022,
+  sudeptosir2022,
+  sankalpsir2022
+
+
+  //defaultImage,
 };
 
 export default ASSETS
