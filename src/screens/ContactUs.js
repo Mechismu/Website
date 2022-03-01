@@ -5,6 +5,9 @@ export default function ContactUs() {
   console.log("Contact us");
   
   return (
-    <div>ContactUs</div>
-  )
+    <div>
+      <p className="team-gallery-heading">Contact us</p>
+      
+    </div>
+  );
 }
