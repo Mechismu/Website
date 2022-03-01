@@ -13,12 +13,12 @@ import ricardo from './Sponsors/ricardo.png';
 import mathworks from './Sponsors/mathworks.png';
 import jktyre from './Sponsors/jktyre.jpg';
 import autodesk from './Sponsors/autodesk.jpg'
-
+import defaultImage from './photos/batch2022/defaultImage.jpeg';
 
 const ASSETS = {
   logo,
   heroBanner,
-  ansyslogo, 
+  ansyslogo,
   aranyalogo,
   Burnout,
   fmsci,
@@ -30,7 +30,8 @@ const ASSETS = {
   ricardo,
   mathworks,
   jktyre,
-  autodesk
+  autodesk,
+  defaultImage,
 };
 
 export default ASSETS
