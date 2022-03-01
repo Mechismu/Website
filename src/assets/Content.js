@@ -317,10 +317,74 @@ const sponsors = [
   {
     name: "Ansys",
     logo: ASSETS.ansyslogo,
-    website: "",
-    instagram: "",
-    facebook: "",
-  },
+    website: "https://www.ansys.com/en-in",
+    instagram: "https://www.instagram.com/ansys_inc/",
+    facebook: "https://www.facebook.com/Ansys",
+  },{
+      name:"Aranyas",
+      logo: ASSETS.aranyalogo,
+      website:"https://aranyas.business.site/",
+      instagram:"https://www.instagram.com/aranyasdhanbad/",
+      facebook:"https://www.facebook.com/aranyasdhanbad/"
+  },{
+    name:"AutoDesk",
+    logo: ASSETS.autodesk,
+    website:"https://www.autodesk.com/",
+    instagram:"https://www.instagram.com/autodesk/",
+    facebook:"https://www.facebook.com/AutodeskIndia"
+  },{
+    name:"State Bank of India",
+    logo: ASSETS.sbilogo,
+    website:"https://www.onlinesbi.com/",
+    instagram:"https://www.instagram.com/theofficialsbi/",
+    facebook:"https://www.facebook.com/StateBankOfIndia/"
+  },{
+    name:"Pioneer",
+    logo: ASSETS.pioneer,
+    website:"https://pioneer-india.in/",
+    instagram:"",
+    facebook:""
+  },{
+    name:"Gail",
+    logo: ASSETS.gail,
+    website:"https://gailonline.com/",
+    instagram:"https://www.instagram.com/gailindia/",
+    facebook:"https://www.facebook.com/GAILIndia"
+  },{
+    name:"Solidworks",
+    logo: ASSETS.solidworks,
+    website:"https://www.solidworks.com/",
+    instagram:"https://www.instagram.com/solidworks/",
+    facebook:"https://www.facebook.com/solidworks"
+  },{
+    name:"Ricardo",
+    logo: ASSETS.ricardo,
+    website:"https://ricardo.com/",
+    instagram:"",
+    facebook:""
+  },{
+    name:"Burnout",
+    logo: ASSETS.Burnout,
+    website:"https://burnoutby3brothers.business.site/",
+    instagram:"https://www.instagram.com/3brothersburnout/",
+    facebook:"https://www.facebook.com/By3Brothers"
+  },{
+    name:"FMSCI",
+    logo: ASSETS.fmsci,
+    website:"http://www.fmsci.co.in/",
+    instagram:"https://www.instagram.com/fmsci.official/",
+    facebook:"https://www.facebook.com/Fmsci-142277842547892"
+  },{
+      name:"Servo",
+      logo:ASSETS.seo,
+      website:"https://iocl.com/",
+      instagram:"",
+      facebook:"https://www.facebook.com/IndianOilCorpLimited"
+  },{
+      name:"J K Tyre",
+      logo:ASSETS.jktyre,
+      website:""
+  }
 ];
 
 const CONTENT = {

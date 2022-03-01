@@ -13,6 +13,9 @@ import ricardo from './Sponsors/ricardo.png';
 import mathworks from './Sponsors/mathworks.png';
 import jktyre from './Sponsors/jktyre.jpg';
 import autodesk from './Sponsors/autodesk.jpg'
+import solidworks from './Sponsors/solidworks.png';
+
+
 import defaultImage from './photos/batch2022/defaultImage.jpeg';
 
 const ASSETS = {
@@ -31,6 +34,7 @@ const ASSETS = {
   mathworks,
   jktyre,
   autodesk,
+  solidworks
   defaultImage,
 };
 
