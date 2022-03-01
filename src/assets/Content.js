@@ -6,14 +6,18 @@ const batch2022 = [
     department: "",
     email: "ak.18je0074@mech.iitism.ac.in",
     linkdin: "https://www.linkedin.com/in/akshay-kargaonkar-48505517a",
-    photo: ASSETS.defaultImage,
+    photo: ASSETS.akshay2022,
   },
   {
     name: "Badireddy Sai Ganesh",
     department: "",
     email: "",
     linkdin: "https://www.linkedin.com/in/badireddy-sai-ganesh-84187019b/",
+<<<<<<< HEAD
+    photo: ASSETS.badisir2022,
+=======
     photo: ASSETS.defaultImage,
+>>>>>>> 357783a6967be11087a8551efa8e33180622ac90
   },
   {
     name: "Intipalli Vinay Venkata Narasimha Swamy",
@@ -21,49 +25,49 @@ const batch2022 = [
     email: "",
     linkdin:
       "https://www.linkedin.com/in/intipalli-vinay-venkata-narasimha-swamy-48846119a/",
-    photo: "",
+    photo: ASSETS.vinaysir2022
   },
   {
     name: "Lakhinana Harshvardhan",
     department: "Steering and Suspension",
-    email: "",
+    email: "lakhi2000.18je0443@mech.iitism.ac.in",
     linkdin: "https://www.linkedin.com/in/lakhinana-harshavardhan-b98898186",
-    photo: "",
+    photo: ASSETS.harshasir2022,
   },
   {
     name: "Manmohan Labh",
     department: "",
     email: "labhmanmohan25@gmail.com",
     linkdin: "",
-    photo: "",
+    photo: ASSETS.manmohansir2022,
   },
   {
     name: "Prateek Kesarwani",
     department: "Steering and Suspension",
     email: "",
     linkdin: "https://www.linkedin.com/in/prateek-kesarwani-9a136616a",
-    photo: "",
+    photo: ASSETS.prateeksir2022,
   },
   {
     name: "Sagar Rawat",
     department: "",
-    email: "",
+    email: "sagarrawat1709@gmail.com",
     linkdin: "https://www.linkedin.com/in/sagar-rawat-60a22b1b2",
-    photo: "",
+    photo: ASSETS.sagarsir2022,
   },
   {
     name: "Sankalp",
     department: "Operations and Mangement",
     email: "sankalp2000india@gmail.com",
     linkdin: "https://www.linkedin.com/in/sankalp-945792187",
-    photo: "",
+    photo: ASSETS.sankalpsir2022,
   },
   {
     name: "Suman Shekhar",
     department: "Chasis",
-    email: "",
+    email: "sumanshekhar170219@gmail.com",
     linkdin: "https://www.linkedin.com/in/suman-shekhar-21290816a",
-    photo: "",
+    photo: ASSETS.sumansir2022
   },
 ];
 const batch2023 = [
