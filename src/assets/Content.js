@@ -301,6 +301,8 @@ const batch2017=[
         email:"",
         linkdin:"",
         photo:""
+    },{
+        
     }
 ]
 
