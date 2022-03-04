@@ -1,0 +1,49 @@
+.contact-us-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 10em;
+}
+
+.contact-us-address{
+  text-align: left;
+  font-size: 2rem;
+  font-weight: medium;
+  line-height: 2.5rem;
+}
+
+.iitism-logo{
+  width: 5vw;
+}
+
+.iitism{
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.contact-icon{
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+
+.contact-icon:hover{
+  color: rgb(136, 136, 136);
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.big{
+  width: 10vw;
+}
+
+.contact-us-images{
+  width: 50%;
+}
+
+.margin{
+  margin: 1em 0;
+}

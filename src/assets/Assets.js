@@ -25,6 +25,7 @@ import sanjaysir2022 from './photos/batch2022/sanjaysir2022.jfif';
 import sudeptosir2022 from './photos/batch2022/sudeptosir2022.jfif';
 import manmohansir2022 from './photos/batch2022/manmohansir2022.jfif';
 import sankalpsir2022 from './photos/batch2022/sankalpsir2022.jfif';
+<<<<<<< HEAD
 import amit2024 from './photos/batch2024/amit2024.jpg';
 import aniket2024 from './photos/batch2024/aniket2024.jpg';
 import dheeraj2024 from './photos/batch2024/dheeraj2024.jpg';
@@ -50,6 +51,10 @@ import aditya2023 from './photos/batch2023/aditya2023.jpeg';
 
 
 
+=======
+import iitismLogo from './iitismLogo.png'
+import iitism from './iitism.jpeg'
+>>>>>>> 5f726b1083d0bda4133f6e82af334d3c69a58496
 import defaultImage from './photos/batch2022/defaultImage.jpeg';
 
 const ASSETS = {
@@ -69,7 +74,9 @@ const ASSETS = {
   jktyre,
   autodesk,
   solidworks,
-  sumansir2022,vinaysir2022,
+  defaultImage,
+  sumansir2022,
+  vinaysir2022,
   akshay2022,
   badisir2022,
   harshasir2022,
@@ -79,6 +86,7 @@ const ASSETS = {
   sanjaysir2022,
   sudeptosir2022,
   sankalpsir2022,
+<<<<<<< HEAD
   amit2024,
   aniket2024,
   dheeraj2024,
@@ -90,6 +98,10 @@ const ASSETS = {
   shivprakashmahto,
   spoorthy2024
 
+=======
+  iitismLogo,
+  iitism,
+>>>>>>> 5f726b1083d0bda4133f6e82af334d3c69a58496
 
   //defaultImage,
 };
