@@ -25,6 +25,25 @@ import sanjaysir2022 from './photos/batch2022/sanjaysir2022.jfif';
 import sudeptosir2022 from './photos/batch2022/sudeptosir2022.jfif';
 import manmohansir2022 from './photos/batch2022/manmohansir2022.jfif';
 import sankalpsir2022 from './photos/batch2022/sankalpsir2022.jfif';
+import amit2024 from './photos/batch2024/amit2024.jpg';
+import aniket2024 from './photos/batch2024/aniket2024.jpg';
+import dheeraj2024 from './photos/batch2024/dheeraj2024.jpg';
+import divyansh2024 from './photos/batch2024/divyansh2024.jpg';
+import hb2024 from './photos/batch2024/hb2024.png';
+import neeharika2024 from './photos/batch2024/neeharika2024.jpg';
+import rohan2024 from './photos/batch2024/rohan2024.jpg';
+import rudra2024 from './photos/batch2024/rudra2024.jpg';
+import shivprakashmahto from './photos/batch2024/shiv2024.jpg';
+import spoorthy2024 from './photos/batch2024/spoorthy2024.jpeg';
+import anshuman2023 from './photos/batch2023/anshuman2023.jfif';
+import bitan2023 from './photos/batch2023/bitan2023.jfif';
+import govind2023 from './photos/batch2023/govind2023.jfif';
+import gunjan2023 from './photos/batch2023/gunjan2023.jfif';
+import rajat2023 from './photos/batch2023/rajat2023.jpeg';
+import suman2023 from './photos/batch2023/suman2023.jfif';
+import rahul2023 from './photos/batch2023/rahul2023.jfif';
+import aditya2023 from './photos/batch2023/aditya2023.jpeg';
+
 
 
 
@@ -59,7 +78,17 @@ const ASSETS = {
   sagarsir2022,
   sanjaysir2022,
   sudeptosir2022,
-  sankalpsir2022
+  sankalpsir2022,
+  amit2024,
+  aniket2024,
+  dheeraj2024,
+  divyansh2024,
+  hb2024,
+  neeharika2024,
+  rohan2024,
+  rudra2024,
+  shivprakashmahto,
+  spoorthy2024
 
 
   //defaultImage,

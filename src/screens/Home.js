@@ -58,6 +58,26 @@ export default function Home() {
           <YoutubeEmbed embedId="13Hqkzu-6YY" />
         </div>
       </div>
+      <div className="who-we-are-wrapper ">
+        <div className="who-we-are-content-wrapper">
+          <p className="who-we-are-heading">Crowdfunding</p>
+          <p className="who-we-are-sub-heading">
+       
+
+We are Team MECHISMU - the official racing team of IIT ISM Dhanbad. We as a team participate in various momentous events like FSAE, Formula Bharat, SAE SUPRA 2020, Formula Imperial, etc. our team's incessant win started from 2010 when we backed 2nd place among 200 teams in BAJA SAE INDIA and this legacy is still carried by our team members until the very end
+
+Starting from Designing, Planning, Manufacturing, and testing our team works very ardently to fabricate their notions into a sensational racing car. This year (2022)we took an initiative to take our team to the elite level by converting our vehicle from IC engine to Electric Vehicle
+
+“You don’t expect to be at the top of the mountain the day you start climbing.” – Ron Dennis
+
+We need funds to develop our vehicle which we can represent on a national, if not on a global scale. We are confident that with our diligence and synergism, we will complete this competition with flying colors and gain abundant knowledge and bring justice to the amount raised by this crowdfunding.
+Your donation will help us not only to build an efficient Electric Vehicle but also take our skills to a legit level
+          </p>
+        </div>
+        <div className="yt-vid">
+          <YoutubeEmbed embedId="13Hqkzu-6YY" />
+        </div>
+      </div>
     </div>
   );
 }
