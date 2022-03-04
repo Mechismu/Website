@@ -25,12 +25,8 @@ import sanjaysir2022 from './photos/batch2022/sanjaysir2022.jfif';
 import sudeptosir2022 from './photos/batch2022/sudeptosir2022.jfif';
 import manmohansir2022 from './photos/batch2022/manmohansir2022.jfif';
 import sankalpsir2022 from './photos/batch2022/sankalpsir2022.jfif';
-
-
-
-
-
-
+import iitismLogo from './iitismLogo.png'
+import iitism from './iitism.jpeg'
 import defaultImage from './photos/batch2022/defaultImage.jpeg';
 
 const ASSETS = {
@@ -51,7 +47,8 @@ const ASSETS = {
   autodesk,
   solidworks,
   defaultImage,
-  sumansir2022,vinaysir2022,
+  sumansir2022,
+  vinaysir2022,
   akshay2022,
   badisir2022,
   harshasir2022,
@@ -60,8 +57,9 @@ const ASSETS = {
   sagarsir2022,
   sanjaysir2022,
   sudeptosir2022,
-  sankalpsir2022
-
+  sankalpsir2022,
+  iitismLogo,
+  iitism,
 
   //defaultImage,
 };

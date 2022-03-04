@@ -13,7 +13,7 @@ const batch2022 = [
     department: "",
     email: "",
     linkdin: "https://www.linkedin.com/in/badireddy-sai-ganesh-84187019b/",
-    photo: ASSETS.defaultImage,
+    photo: ASSETS.badisir2022,
   },
   {
     name: "Intipalli Vinay Venkata Narasimha Swamy",
@@ -21,7 +21,7 @@ const batch2022 = [
     email: "",
     linkdin:
       "https://www.linkedin.com/in/intipalli-vinay-venkata-narasimha-swamy-48846119a/",
-    photo: ASSETS.vinaysir2022
+    photo: ASSETS.vinaysir2022,
   },
   {
     name: "Lakhinana Harshvardhan",
@@ -63,7 +63,7 @@ const batch2022 = [
     department: "Chasis",
     email: "sumanshekhar170219@gmail.com",
     linkdin: "https://www.linkedin.com/in/suman-shekhar-21290816a",
-    photo: ASSETS.sumansir2022
+    photo: ASSETS.sumansir2022,
   },
 ];
 const batch2023 = [
