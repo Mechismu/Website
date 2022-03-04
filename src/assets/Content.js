@@ -13,11 +13,7 @@ const batch2022 = [
     department: "",
     email: "",
     linkdin: "https://www.linkedin.com/in/badireddy-sai-ganesh-84187019b/",
-<<<<<<< HEAD
     photo: ASSETS.badisir2022,
-=======
-    photo: ASSETS.defaultImage,
->>>>>>> 357783a6967be11087a8551efa8e33180622ac90
   },
   {
     name: "Intipalli Vinay Venkata Narasimha Swamy",
