@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./Team.css";
 import CONTENT from "../assets/Content";
 import { IoLogoLinkedin, IoMdMail } from "react-icons/io";
+import ASSETS from '../assets/Assets'
 
 export default function TeamGallery({ setCurrScreen }) {
   
@@ -34,6 +35,7 @@ export default function TeamGallery({ setCurrScreen }) {
   return (
     <div className="team-gallery-wrapper">
       <p className="team-gallery-heading">Team Members</p>
+      <img className='departments-banner' src={ASSETS.departments} />
       {/* <p className="team-gallery-sub-heading">Team Members</p> */}
       <p className="year-heading"> Batch of 2018 </p>
       <div className="wrap margin2rem center">
