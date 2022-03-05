@@ -43,17 +43,13 @@ import rajat2023 from './photos/batch2023/rajat2023.jpeg';
 import suman2023 from './photos/batch2023/suman2023.jfif';
 import rahul2023 from './photos/batch2023/rahul2023.jfif';
 import aditya2023 from './photos/batch2023/aditya2023.jpeg';
-//import iitismLogo from './photos/iitismLogo.png';
-//import iitism from './photos/iitism.jpeg';
+import iitismLogo from './iitismLogo.png';
+import iitism from './iitism.jpeg';
 import kakarla2023 from './photos/batch2023/kakarla2023.jpeg';
 import vivek2023 from './photos/batch2023/vivek2023.jpeg';
 import jagdesh2023 from './photos/batch2023/jagdesh2023.jpeg';
 import tanish2024 from './photos/batch2024/tanish2024.jpeg';
-
-
-
-
-
+import workshop from './workshop.jpg'
 
 
 import defaultImage from './photos/batch2022/defaultImage.jpeg';
@@ -110,10 +106,11 @@ const ASSETS = {
   jagdesh2023,
   tanish2024,
 
-  //iitismLogo,
-  //iitism,
+  iitismLogo,
+  iitism,
+  workshop,
 
-  //defaultImage,
+  defaultImage,
 };
 
 export default ASSETS

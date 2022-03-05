@@ -21,6 +21,7 @@ export default function ContactUs() {
           Workshop building, 1st floor <br />
           IIT(ISM), Dhanbad <br />
           Jharkhand, 826004 <br />
+          Ph No: 9772686423 <br />
           <span
             onClick={() =>
               window.open("https://www.instagram.com/mechismuracing/?hl=en")
@@ -34,7 +35,7 @@ export default function ContactUs() {
             <FaFacebookSquare className="contact-icon" />
           </span>
         </div>
-        <img src={ASSETS.iitism} className="contact-us-images" />
+        <img src={ASSETS.workshop} className="contact-us-images" />
       </div>
       <img src={ASSETS.iitism} className="iitism" />
     </div>
