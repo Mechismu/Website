@@ -1,3 +1,10 @@
+input[type="text"] {
+     width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+
 .contact-us-flex{
   display: flex;
   justify-content: space-evenly;
@@ -60,24 +67,33 @@
   /* display: flex; */
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 
 .field{
   margin-bottom: 1rem;
+  height: 3rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.horizontal{
+  text-align: left;
+  width: 49%;
 }
 
 .w100{
   width: 100%;
 }
 
-.w45{
-  width: 49%;
+.w90{
+  width: 90%;
 }
 
 .space-between{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1rem;
 }
 
 .margin-bottom-1rem{
@@ -86,4 +102,8 @@
 
 .submit-button{
   width: 100%;
+}
+
+.form-title{
+  margin: 0.5rem 0;
 }

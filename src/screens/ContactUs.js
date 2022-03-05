@@ -62,41 +62,29 @@ export default function ContactUs({ setCurrScreen }) {
           >
             <input type="hidden" name="form-name" value="contact-form" />
             <div className="space-between">
-              <TextField
-                id="outlined-basic"
-                label="Name"
-                variant="outlined"
-                className="field w45"
-              />
-              <TextField
-                id="outlined-basic"
-                label="Email"
-                variant="outlined"
-                className="field w45"
-              />
+              <div className="horizontal">
+                <p className="form-title">Name</p>
+                <input type="text" name="email" className="field w100" />
+              </div>
+              <div className="horizontal">
+                <p className="form-title">Email</p>
+                <input type="text" name="email" className="field w100" />
+              </div>
             </div>
-            <div className="margin-bottom-1rem">
-              <TextField
-                id="outlined-basic"
-                label="Subject"
-                variant="outlined"
-                className="field w100"
-              />
-            </div>
-            <div className="margin-bottom-1rem">
-              <TextField
-                id="outlined-basic"
-                label="Message"
-                variant="outlined"
-                className="field w100"
-                multiline
-                rows={6}
-              />
-            </div>
+            <p className="form-title">Subject</p>
+            <input type="text" name="subject" className="field" />
+            <p className="form-title">Message</p>
+            <textarea
+              type="text"
+              name="message"
+              className="field"
+              // multiline
+              // rows={6}
+            />
+            <Button variant="contained" className="submit-button">
+              Submit
+            </Button>
           </div>
-          <Button variant="contained" className="submit-button">
-            Submit
-          </Button>
         </div>
       </div>
     </div>
