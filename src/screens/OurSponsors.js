@@ -38,7 +38,7 @@ export default function OurSponsors({ setCurrScreen }) {
   return (
     <div className="team-gallery-wrapper center-justify">
       <p className="team-gallery-heading">Sponsors</p>
-      <div className="croud-funding margin2rem">
+      {/* <div className="croud-funding margin2rem">
         <img className="croud-funding-image" src={ASSETS.whatWeDo} />
         <div className="croud-funding-content">
           <p className="croud-funding-info">
@@ -48,7 +48,7 @@ export default function OurSponsors({ setCurrScreen }) {
           </p>
           <Button variant="contained">Support us</Button>
         </div>
-      </div>
+      </div> */}
       <div className="wrap margin2rem center">
         {CONTENT.sponsors.map((details) => {
           return card(details);

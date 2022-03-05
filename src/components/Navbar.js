@@ -24,7 +24,7 @@ export default function Navbar({ currScreen }) {
           }
           to="/our-projects"
         >
-          Projects
+          Cars
         </NavLink>
         <NavLink
           className={

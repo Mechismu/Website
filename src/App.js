@@ -7,6 +7,7 @@ import OurProjects from "./screens/OurProjects";
 import OurSponsors from './screens/OurSponsors'
 import Team from './screens/Team'
 import ContactUs from './screens/ContactUs'
+import Footer from './components/Footer'
 
 function App() {
   const [currScreen, setCurrScreen] = useState("");
@@ -38,6 +39,7 @@ function App() {
             element={<ContactUs setCurrScreen={setCurrScreen} />}
           />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

@@ -1,12 +1,12 @@
 import logo from './logo.png';
-import heroBanner from './heroBanner.jpg';
-import ansyslogo from './Sponsors/ansyslogo.jpg';
+import heroBanner from './heroBanner.jpeg';
+import ansyslogo from './Sponsors/ansys.webp';
 import aranyalogo from './Sponsors/aranyalogo.jpeg';
 import Burnout from './Sponsors/Burnout.png';
 import fmsci from './Sponsors/fmsci.jpg';
 import gail from './Sponsors/gail.png';
 import ims from './Sponsors/ims.png';
-import pioneer from './Sponsors/pioneer.png';
+import pioneer from './Sponsors/pioneer.jpg';
 import sbilogo from './Sponsors/sbilogo.png';
 import seo from './Sponsors/seo.jpg';
 import ricardo from './Sponsors/ricardo.png';
@@ -51,7 +51,8 @@ import jagdesh2023 from './photos/batch2023/jagdesh2023.jpeg';
 import tanish2024 from './photos/batch2024/tanish2024.jpeg';
 import workshop from './workshop.jpg'
 import whatWeDo from "./whatWeDo.jpg";
-
+import milestone from './milestone.png'
+import media from './media.jpg'
 
 import defaultImage from './photos/batch2022/defaultImage.jpeg';
 
@@ -106,11 +107,12 @@ const ASSETS = {
   vivek2023,
   jagdesh2023,
   tanish2024,
-
+  media,
   iitismLogo,
   iitism,
   workshop,
   whatWeDo,
+  milestone,
 
   defaultImage,
 };

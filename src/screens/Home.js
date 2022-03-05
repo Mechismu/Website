@@ -59,9 +59,41 @@ export default function Home({ setCurrScreen }) {
             includes both static and dynamic events.
           </p>
         </div>
-        <img src={ASSETS.whatWeDo} className="yt-vid" />
+        <div className="yt-vid">
+          <YoutubeEmbed embedId="IMlT_hteD0g" />
+        </div>
       </div>
-      
+      <div className="who-we-are-wrapper">
+        <div className="who-we-are-content-wrapper">
+          <p className="who-we-are-heading">What is FSAE</p>
+          <p className="who-we-are-sub-heading">
+            Formula Student (FS) is one of the most prestigious educational
+            engineering competitions hosted by the Formula Student community.
+            Spread across 5 continents, Formula Student captivates a large
+            number of universities every year to participate and compete with
+            each other. We design, engineer, and race our cars as a racing team
+            in SAE Collegiate Design Competitions such as Formula SAE, Baja SAE,
+            and Supra SAE where students are challenged to build and race
+            miniature formula-style racing cars. We rely significantly on
+            innovation and experimentation in our quest towards greatness. We
+            plan, build, and prepare the vehicle for the competition, which
+            includes both static and dynamic events.
+          </p>
+        </div>
+        <div className="yt-vid">
+          <YoutubeEmbed embedId="I1oLdHYkbl4" />
+        </div>
+      </div>
+      <div className="grey">
+        <div>
+          <p className="team-gallery-heading">Milestones</p>
+          <img className="milestone-image" src={ASSETS.milestone} />
+        </div>
+        <div>
+          <p className="team-gallery-heading">Media coverage</p>
+          <img className="media-image" src={ASSETS.media} />
+        </div>
+      </div>
     </div>
   );
 }
