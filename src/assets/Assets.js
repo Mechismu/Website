@@ -1,5 +1,5 @@
 import logo from './logo.png';
-import heroBanner from './heroBanner.jpeg';
+import heroBanner from './heroBanner.jpg';
 import ansyslogo from './Sponsors/ansyslogo.jpg';
 import aranyalogo from './Sponsors/aranyalogo.jpeg';
 import Burnout from './Sponsors/Burnout.png';
@@ -50,6 +50,7 @@ import vivek2023 from './photos/batch2023/vivek2023.jpeg';
 import jagdesh2023 from './photos/batch2023/jagdesh2023.jpeg';
 import tanish2024 from './photos/batch2024/tanish2024.jpeg';
 import workshop from './workshop.jpg'
+import whatWeDo from "./whatWeDo.jpg";
 
 
 import defaultImage from './photos/batch2022/defaultImage.jpeg';
@@ -109,6 +110,7 @@ const ASSETS = {
   iitismLogo,
   iitism,
   workshop,
+  whatWeDo,
 
   defaultImage,
 };

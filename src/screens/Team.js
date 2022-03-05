@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Team.css";
 import CONTENT from "../assets/Content";
 import { IoLogoLinkedin, IoMdMail } from "react-icons/io";
 
-export default function TeamGallery() {
+export default function TeamGallery({ setCurrScreen }) {
+  
+  useEffect(() => {
+    setCurrScreen("team");
+  }, []);
+
   const card = (details) => {
     return (
       <div className="card">

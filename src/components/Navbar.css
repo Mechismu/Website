@@ -20,4 +20,12 @@
 
 .navbar-link{
   margin: 0 1rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.selected{
+  color: rgb(255, 0, 0) !important;
+  /* font-weight: bold; */
+  /* border: 10px; */
 }

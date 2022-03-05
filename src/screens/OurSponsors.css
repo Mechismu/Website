@@ -20,6 +20,12 @@
   position: relative;
 }
 
+.card-s:hover{
+  border: 0px !important;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
 .hover{
   width: 100%;
   height: 100%;
@@ -43,4 +49,44 @@
   height: 250px;
   width: 250px;
   border-radius: 10px;
+}
+
+.croud-funding{
+  display: flex;
+  /* justify-content: center; */
+  width: calc(100% - 20vw);
+  height: 30vh;
+  /* border: 1px solid rgb(0, 0, 0, 0.719); */
+  border-radius: 10px;
+  margin-bottom: 1rem !important;
+  background-image: linear-gradient(90deg, rgb(233, 236, 44), rgb(231, 80, 80));
+  font-weight: bold !important;
+  color: white;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6)
+}
+
+.center-justify{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.croud-funding-image{
+  border-radius: 10px 0 0 10px;
+  height: 100%;
+}
+
+.croud-funding-content{
+  margin: 2rem;
+  text-align: left;
+  font-size: 1.5rem;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start; */
+}
+
+.croud-funding-info{
+  margin: 0 0 1rem 0;  
 }

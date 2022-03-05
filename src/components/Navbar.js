@@ -1,30 +1,57 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import ASSETS from '../assets/Assets'
-import './Navbar.css'
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import ASSETS from "../assets/Assets";
+import "./Navbar.css";
 
-export default function Navbar() {
+export default function Navbar({ currScreen }) {
   return (
     <div className="navbar-wrapper">
       <div className="navbar-logo-wrapper">
         <img className="logo" src={ASSETS.logo} />
       </div>
       <div className="link-wrapper">
-        <Link className="navbar-link" to="/">
+        <NavLink
+          className={currScreen === "" ? "navbar-link selected" : "navbar-link"}
+          to="/"
+        >
           Home
-        </Link>
-        <Link className="navbar-link" to="/our-projects">
+        </NavLink>
+        <NavLink
+          className={
+            currScreen === "our-projects"
+              ? "navbar-link selected"
+              : "navbar-link"
+          }
+          to="/our-projects"
+        >
           Projects
-        </Link>
-        <Link className="navbar-link" to="/our-sponsors">
+        </NavLink>
+        <NavLink
+          className={
+            currScreen === "our-sponsors"
+              ? "navbar-link selected"
+              : "navbar-link"
+          }
+          to="/our-sponsors"
+        >
           Sponsors
-        </Link>
-        <Link className="navbar-link" to="/team">
+        </NavLink>
+        <NavLink
+          className={
+            currScreen === "team" ? "navbar-link selected" : "navbar-link"
+          }
+          to="/team"
+        >
           Team
-        </Link>
-        <Link className="navbar-link" to="/contact-us">
+        </NavLink>
+        <NavLink
+          className={
+            currScreen === "contact-us" ? "navbar-link selected" : "navbar-link"
+          }
+          to="/contact-us"
+        >
           Contact us
-        </Link>
+        </NavLink>
       </div>
     </div>
   );

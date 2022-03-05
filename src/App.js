@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from './screens/Home'
@@ -8,27 +9,33 @@ import Team from './screens/Team'
 import ContactUs from './screens/ContactUs'
 
 function App() {
+  const [currScreen, setCurrScreen] = useState("");
+
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <Navbar currScreen={currScreen} />
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route
+            path="/"
+            exact
+            element={<Home setCurrScreen={setCurrScreen} />}
+          />
           <Route
             path="/our-projects"
-            element={<OurProjects />}
+            element={<OurProjects setCurrScreen={setCurrScreen} />}
           />
           <Route
             path="/our-sponsors"
-            element={<OurSponsors />}
+            element={<OurSponsors setCurrScreen={setCurrScreen} />}
           />
           <Route
             path="/team"
-            element={<Team />}
+            element={<Team setCurrScreen={setCurrScreen} />}
           />
           <Route
             path="/contact-us"
-            element={<ContactUs />}
+            element={<ContactUs setCurrScreen={setCurrScreen} />}
           />
         </Routes>
       </Router>
