@@ -54,7 +54,7 @@ export default function ContactUs({ setCurrScreen }) {
         </div>
         <div className="contact-us-card">
           <p className="contact-us-card-heading">Contact form</p>
-          <div
+          <form
             className="form-wrapper"
             name="contact-form"
             method="POST"
@@ -78,13 +78,11 @@ export default function ContactUs({ setCurrScreen }) {
               type="text"
               name="message"
               className="field"
-              // multiline
-              // rows={6}
             />
-            <Button variant="contained" className="submit-button">
+            <button type="submit" className="submit-button">
               Submit
-            </Button>
-          </div>
+            </button>
+          </form>
         </div>
       </div>
     </div>
