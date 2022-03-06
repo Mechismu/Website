@@ -2,5 +2,15 @@
   margin-top: 5rem;
   padding: 1rem;
   text-align: center;
-  background-color: rgb(216, 216, 216);
+  /* background-color: #ff7a21; */
+  background-size: contain;
+  font-weight: bold;
+  background-image: url(../assets/footer.jpg);
+}
+
+.footer-text{
+  background-color: #fff;
+  color: #000000;
+  margin: 0;
+  padding: 0.2rem 0;
 }

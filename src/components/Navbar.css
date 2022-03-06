@@ -25,7 +25,7 @@
 }
 
 .selected{
-  color: rgb(255, 0, 0) !important;
-  /* font-weight: bold; */
+  color: #ff7a21 !important;
+  font-weight: bold;
   /* border: 10px; */
 }
