@@ -153,6 +153,20 @@ const batch2024 = [
     photo: ASSETS.divyansh2024,
   },
   {
+    name: "Amit Hurmade",
+    department: "Brakes",
+    email: "hurmadeamit14@gmail.com",
+    linkdin: "https://www.linkedin.com/in/amit-hurmade-489548205/",
+    photo: ASSETS.amit2024,
+  },
+  {
+    name: "K Vivek",
+    department: "Powertrain",
+    email: "20je460@mech.iitism.ac.in",
+    linkdin: "https://www.linkedin.com/mwlite/in/k-vivek-166811218",
+    photo: ASSETS.vivek2024,
+  },
+  {
     name: "Tanisha Chandra",
     department: "Chassis",
     email: "20je1014@mech.iitism.ac.in",
@@ -198,8 +212,8 @@ const batch2024 = [
     name: "Swarnendu Saha",
     department: "Brakes",
     email: "20je1006@mech.iitism.ac.in",
-    linkdin: "",
-    photo: "",
+    linkdin: "https://www.linkedin.com/in/swarnendu-saha-a89961233",
+    photo: ASSESTS.swarnendu2024,
   },
   {
     name: "Shiv Prakash Mahto",
@@ -213,13 +227,13 @@ const batch2024 = [
     department: "Operations and Sponsorship",
     email: "20je0999@me.iitism.ac.in",
     linkdin: "https://www.linkedin.com/in/sushant-kumar-roy-6b7481142/",
-    photo: "",
+    photo: ASSETS.sushant2024,
   },
   {
     name: "Muntaba Khan",
     department: "Chassis",
     email: "20je0591@mech.iitism.ac.in",
-    linkdin: "",
+    linkdin: "http://linkedin.com/in/muntaba-khan-a48308201",
     photo: ASSETS.muntaba2024,
   },
   {
@@ -233,8 +247,8 @@ const batch2024 = [
     name: "Nikhil Kumar Bharti",
     department: "Powertrain",
     email: "20je0621@cve.iitism.ac.in",
-    linkdin: "",
-    photo: "",
+    linkdin: "https://www.linkedin.com/in/nikhil-kumar-bharti-lh44/",
+    photo: ASSETS.nikhill2024,
   },{
     name:"Rohan Sai Chandra",
     department:"Operations and Sponsorship",
