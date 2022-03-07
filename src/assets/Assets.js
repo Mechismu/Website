@@ -32,7 +32,11 @@ import divyansh2024 from "./photos/batch2024/divyansh2024.jpg";
 import hb2024 from "./photos/batch2024/hb2024.png";
 import neeharika2024 from "./photos/batch2024/neeharika2024.jpg";
 import muntaba2024 from "./photos/batch2024/muntaba2024.jpg";
+import vivek2024 from "./photos/batch2024/vivek2024.jpg";
 import vidushi2024 from "./photos/batch2024/vidushi2024.jpg";
+import swarnendu2024 from "./photos/batch2024/swarnendu2024.jpg";
+import sushant2024 from "./photos/batch2024/sushant2024.jpg";
+import nikhill2024 from "./photos/batch2024/nikhill2024.jpg";
 import akshaya2024 from "./photos/batch2024/akshaya2024.jpg";
 import rohan2024 from "./photos/batch2024/rohan2024.jpg";
 import rudra2024 from "./photos/batch2024/rudra2024.jpg";
@@ -93,6 +97,11 @@ const ASSETS = {
   dheeraj2024,
   divyansh2024,
   hb2024,
+  amit2024,
+  swarnendu2024,
+  sushant2024,
+  nikhill2024,
+  vivek2024,
   neeharika2024,
   muntaba2024,
   akshaya2024,
