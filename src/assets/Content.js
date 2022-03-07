@@ -247,14 +247,14 @@ const batch2024 = [
     department:"Brakes",
     email:"vidushi.omar123@gmail.com",
     linkdin:"https://www.linkedin.com/in/vidushi-omar-47b3ab201",
-    photo:,
+    photo:ASSETS.vidushi2024,
   },
   {
     name:"Gunda Akshaya",
     department:"Steering and Suspension",
     email:"gundaakshayad1@gmail.com",
     linkdin:"",
-    photo:ASSETS.rohan2024,
+    photo:ASSETS.akshaya2024,
   }
 ];
 const batch2018 = [
