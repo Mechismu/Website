@@ -213,7 +213,7 @@ const batch2024 = [
     department: "Brakes",
     email: "20je1006@mech.iitism.ac.in",
     linkdin: "https://www.linkedin.com/in/swarnendu-saha-a89961233",
-    photo: ASSESTS.swarnendu2024,
+    photo: ASSETS.swarnendu2024,
   },
   {
     name: "Shiv Prakash Mahto",
