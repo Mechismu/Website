@@ -41,7 +41,7 @@ import spoorthy2024 from "./photos/batch2024/spoorthy2024.jpeg";
 import anshuman2023 from "./photos/batch2023/anshuman2023.jfif";
 import bitan2023 from "./photos/batch2023/bitan2023.jfif";
 import govind2023 from "./photos/batch2023/govind2023.jfif";
-import gunjan2023 from "./photos/batch2023/gunjan2023.jfif";
+import gunjan2023 from "./photos/batch2023/gunjan2023.jpg";
 import rajat2023 from "./photos/batch2023/rajat2023.jpeg";
 import suman2023 from "./photos/batch2023/suman2023.jfif";
 import rahul2023 from "./photos/batch2023/rahul2023.jfif";
