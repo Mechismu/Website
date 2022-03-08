@@ -185,7 +185,7 @@ const batch2024 = [
     department: "Steering and Suspension",
     email: "20je0585@ce.iitism.ac.in",
     linkdin: "https://www.linkedin.com/in/muditvir/",
-    photo: "",
+    photo: ASSETS.mudit2024,
   },
   {
     name: "Dheeraj",
