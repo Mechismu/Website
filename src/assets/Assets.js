@@ -33,6 +33,7 @@ import hb2024 from "./photos/batch2024/hb2024.png";
 import neeharika2024 from "./photos/batch2024/neeharika2024.jpg";
 import muntaba2024 from "./photos/batch2024/muntaba2024.jpg";
 import vivek2024 from "./photos/batch2024/vivek2024.jpg";
+import mudit2024 from "./photos/batch2024/mudit2024.jpg";
 import vidushi2024 from "./photos/batch2024/vidushi2024.jpg";
 import swarnendu2024 from "./photos/batch2024/swarnendu2024.jpg";
 import sushant2024 from "./photos/batch2024/sushant2024.png";
@@ -96,6 +97,7 @@ const ASSETS = {
   aniket2024,
   dheeraj2024,
   divyansh2024,
+  mudit2024,
   hb2024,
   amit2024,
   swarnendu2024,
