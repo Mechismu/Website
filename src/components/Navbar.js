@@ -1,58 +1,93 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
+import './Navbar.css';
 import ASSETS from "../assets/Assets";
-import "./Navbar.css";
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 export default function Navbar({ currScreen }) {
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+    window.addEventListener('resize', showButton);
+   return ()=>{
+      window.removeEventListener('resize',showButton);
+    }
+  }, []);
+
+
   return (
-    <div className="navbar-wrapper">
-      <div className="navbar-logo-wrapper">
-        <img className="logo" src={ASSETS.logo} />
-      </div>
-      <div className="link-wrapper">
-        <NavLink
-          className={currScreen === "" ? "navbar-link selected" : "navbar-link"}
-          to="/"
-        >
-          Home
-        </NavLink>
-        <NavLink
-          className={
-            currScreen === "our-projects"
-              ? "navbar-link selected"
-              : "navbar-link"
-          }
-          to="/our-projects"
-        >
-          Cars
-        </NavLink>
-        <NavLink
-          className={
-            currScreen === "our-sponsors"
-              ? "navbar-link selected"
-              : "navbar-link"
-          }
-          to="/our-sponsors"
-        >
-          Sponsors
-        </NavLink>
-        <NavLink
-          className={
-            currScreen === "team" ? "navbar-link selected" : "navbar-link"
-          }
-          to="/team"
-        >
-          Team
-        </NavLink>
-        <NavLink
-          className={
-            currScreen === "contact-us" ? "navbar-link selected" : "navbar-link"
-          }
-          to="/contact-us"
-        >
-          Contact us
-        </NavLink>
-      </div>
-    </div>
+    <>      
+        <nav className='navbar'>
+          <div className='navbar-container cont'>
+            <NavLink to='/' className='navbar-logo' onClick={closeMobileMenu}>
+             
+            <img className="logo" src={ASSETS.logo} />
+            </NavLink>
+            <div className='menu-icon' onClick={handleClick}>
+              {click ? <FaTimes /> : <FaBars />}
+            </div>
+            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+              <li className='nav-item'>
+                <NavLink to='/' className='nav-links' onClick={closeMobileMenu}>
+                  Home
+                </NavLink>
+              </li>
+              <li className='nav-item'>
+                <NavLink
+                  to='/our-projects'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Cars
+                </NavLink>
+              </li>
+              <li className='nav-item'>
+                <NavLink
+                  to='/our-sponsors'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Our Sponsors
+                </NavLink>
+              </li>
+              <li className='nav-item'>
+                <NavLink
+                  to='/team'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Team
+                </NavLink>
+              </li>
+              <li className='nav-item'>
+                <NavLink
+                  to='/contact-us'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Contact-Us
+                </NavLink>
+              </li>
+        
+            </ul>
+          </div>
+        </nav>
+     
+    </>
   );
 }
+
+
