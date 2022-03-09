@@ -110,3 +110,16 @@
 .media-image{
   height: 60vh;
 }
+@media screen and (max-width: 960px) {
+ .hero-banner-heading{
+   font-size: 4rem;
+ }
+ .hero-banner-sub-heading{
+   font-size: 1.5rem;
+ }.who-we-are-heading{
+   font-size: 3rem;
+   font-weight: bold;
+   width: 100vw;
+ }
+
+}
