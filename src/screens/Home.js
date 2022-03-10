@@ -16,7 +16,7 @@ export default function Home({ setCurrScreen }) {
         <img className="hero-banner" src={ASSETS.heroBanner} />
         <div className="centered">
           <p className="hero-banner-heading animate-charcter">Mechismu</p>
-          <p className="hero-banner-sub-heading">Racing is religion</p>
+          <p className="hero-banner-sub-heading ">Racing <span>I</span>s <span>R</span>eligion</p>
         </div>
       </div>
       <div className="who-we-are-wrapper">
