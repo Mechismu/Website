@@ -62,7 +62,7 @@
 
 .nav-item:hover {
   border-bottom: 2px solid #f00946;
-  background-color: #bdab9f;
+  background-color: #ad9686;
 }
 
 .nav-links {
@@ -175,5 +175,7 @@
   .logo{
     height: 3rem;
     width: 7rem;
+    position: absolute;
+    top:50%;
   }
 }
