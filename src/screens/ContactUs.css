@@ -121,3 +121,21 @@ input[type="text"] {
 .form-title {
   margin: 0.5rem 0;
 }
+@media screen and (max-width:960px){
+  .team-gallery-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .contact-us-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .contact-us-card{
+    width: 95%;
+    margin-left: 0.3rem;
+  }
+
+
+}
