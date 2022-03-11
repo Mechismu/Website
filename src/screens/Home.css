@@ -45,6 +45,7 @@
     #ff7a21 67%,
     #169cad 100%
   );
+  /* -webkit-background-clip: text; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
@@ -95,7 +96,7 @@
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
@@ -126,43 +127,64 @@
   height: 60vh;
 }
 @media screen and (max-width: 960px) {
-
- .hero-banner-heading{
-   font-size: 4rem;
- }
- .hero-banner-sub-heading{
-   font-size: 1.5rem;
- }
- .who-we-are-heading{
-   font-size: 3rem;
-   font-weight: bold;
-   width: 100vw;
- }
- .who-we-are-wrapper div{
+   .container{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+   }
+   .grey{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: center;
+     
+    
   
-    display: inline-block; 
-	width: 500px; 
-	min-height: 50px; 
+   }
+   .milestone-image{
+     width: 70%;
+     height: 70%;
+   }
+   .media-image{
+     width: 70%;
+     height: 70%;
+   }
+   .who-we-are-wrapper{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     
+    }
+   .hero-banner-heading{
+     font-size: 4rem;
 
-	height: auto; 
-
+   }
+   .who-we-are-sub-heading{
+     font-size: 1.2rem;
+     box-sizing: border-box;
+     padding: 0;
+     width: 65vw;
+     align-items: center;
+   }
+   .who-we-are-content-wrapper{
+     width: 60vw;
+     text-align: center;
+     position: relative;
+     left: 0%;
+   }
+   .yt-vid{
+     width: 70vw;
+   }
+   .who-we-are-heading{
+     font-size: 2.3rem;
+     font-weight: bold;
+     border-bottom: 2px solid black;
+   }
+   .hero-banner-sub-heading{
+     font-size: 1.5rem;
+   }
  
- }
- .grey{
-   display: flex;
-   flex-wrap: wrap;
- }
- .who-we-are-wrapper{
-   display: flex;
-   flex-wrap: wrap;
-  
-   overflow: hidden;
-   
- }
- .yt-vid{
-   width: 10%;
-   height: 50%;
- }
+
 
 
 }
