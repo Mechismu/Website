@@ -10,6 +10,7 @@
   /* background-image: url(../assets/carbg.jpg);
   background-size: cover;
   background-repeat: no-repeat; */
+  margin-bottom: 2rem;
 }
 
 .car-wrapper{
@@ -82,4 +83,39 @@
 
 .margin-hor-2rem{
   margin: 0 2rem;
+}
+@media screen and (max-width: 960px){
+  .space-evenly{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    
+  }
+  .cardetails{
+    text-align: center;
+    font-size: 1.2rem;
+    width: 72vw;
+    padding: 0%;
+    
+  }
+  .contact-us-card-heading{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+
+  }
+  .car-card{
+    width: 80%;
+  }
+  .w45{
+    width: 70%;
+  }
+  .w100{
+    height: 50%;
+  }
+  .default-details{
+    padding: 0%;
+  }
+ 
 }

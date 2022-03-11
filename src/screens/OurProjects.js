@@ -46,13 +46,15 @@ export default function OurProjects({ setCurrScreen }) {
         <div className="space-evenly">
           <div className="w45">
             <p className="contact-us-card-heading">{carDetails.name}</p>
-            <p>{carDetails.details}</p>
+            <p className="cardetails">{carDetails.details}</p>
             <img className="w100" src={carDetails.image} />
           </div>
           <img className="maxheight100" src={carDetails.specs} />
         </div>
-        <p className="contact-us-card-heading">Gallery</p>
-        {carousel(carDetails.gallery)}
+        <div className="imagegallery">
+        <div className="contact-us-card-heading">Gallery</div>
+        <div className="imagesgallery">{carousel(carDetails.gallery)}</div>
+        </div>
       </div>
     );
   };
