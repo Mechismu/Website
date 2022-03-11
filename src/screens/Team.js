@@ -55,7 +55,7 @@ export default function TeamGallery({ setCurrScreen }) {
           return card(details);
         })}
       </div>
-      <p className="team-gallery-heading">Alumni</p>
+      {/* <p className="team-gallery-heading">Alumni</p>
       <p className="year-heading"> Batch of 2018 </p>
       <div className="wrap margin2rem center">
         {CONTENT.batch2018.map((details) => {
@@ -67,7 +67,7 @@ export default function TeamGallery({ setCurrScreen }) {
         {CONTENT.batch2017.map((details) => {
           return card(details);
         })}
-      </div>
+      </div> */}
     </div>
   );
 }
