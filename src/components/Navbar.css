@@ -86,12 +86,13 @@
 
   .NavbarItems {
     position: relative;
+    left:0;
   }
 
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     height: 90vh;
     position: absolute;
     top: 80px;
@@ -110,12 +111,11 @@
     height: 55vh;
     top:4rem;
     text-align: center;
-    width: 100vw;
+    width: 93vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: nowrap;
-  
   }
   .nav-menu.active li{
     text-align: center;
@@ -125,7 +125,7 @@
   .nav-links {
     text-align: center;
     padding: 2rem;
-    width: 100%;
+    width: 81vw;
     display: table;
   }
 
