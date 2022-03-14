@@ -5,7 +5,7 @@ const MRX01 = {
   name: "MRX01",
   year: "2011",
   image: mrx01,
-  details: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+  details: "“THE SECRET OF SUCCESS IS TO DO COMMON THING UNCOMMONLY WELL.A very well said line by John . D. Rockfeller that inspires us to work harder.We as a team have already built many cars one of them is MRX it was one of the most sought after cars and we as a team take pride that we built such a robust masterpiece And what to talk about its specification it has inline single cylinder 4 stroke engine with water-cooled DOHC , having max power 22.1HP at 9300 rpm and a top speed of 130km/hrIts chassis was also one of a kind having clearance a clearance of 71.54 in front and 60.87mm in rearWith wheelbase of 1574.8mm and max height of 1092.2mmThe brakes are having byber hydraulic callipers and the front-outboard has 220mm and the rear-outboard having 220 mm Suspensions consist of unequal length non-parallel double-wishbone coils springs and hydraulic dampers and also anti-roll bar assist in front",
   specs: mrx01specs,
   gallery: [mrx01, mrx01, mrx01],
 };

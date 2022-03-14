@@ -5,7 +5,7 @@ const MRX02 = {
   name: "MRX02",
   year: "2011",
   image: mrx02,
-  details: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+  details:"THE ONLY REAL MISTAKE IS THE ONE FROM WHICH WE LEARN NOTHING -Henry Ford.We as a team believe in this very well said quote we improve with every car we make MRX-02 is our another achievement of which we are proud ofAnd what to talk about its specification it has inline single cylinder 4 stroke engine with water-cooled DOHC , having max power 22.1HP at 9300 rpm and a top speed of 130km/hrIts chassis was also one of a kind having clearance a clearance of 71.54 in front and 60.87mm in rearWith a wheelbase of 1574.8mm and max height of 1092.2mmThe brakes are having byber hydraulic callipers and the front-outboard has 220mm and the rear-outboard having 220 mm Suspensions consist of unequal length non-parallel double-wishbone coils springs and hydraulic dampers and also anti-roll bar assist in front",
   specs: mrx02specs,
   gallery: [mrx02, mrx02, mrx02],
 };

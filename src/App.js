@@ -39,8 +39,9 @@ function App() {
             element={<ContactUs setCurrScreen={setCurrScreen} />}
           />
         </Routes>
-        <Footer />
+        
       </Router>
+      <Footer />
     </div>
   );
 }
