@@ -63,6 +63,14 @@ import milestone from "./milestone.png";
 import media from "./media.jpg";
 import departments from "./departments.png";
 import defaultImage from "./photos/batch2022/defaultImage.jpeg";
+import ankitsir2021 from "./photos/batch2021/ankitsir2021.jpg";
+import ishusir2021 from "./photos/batch2021/ishusir2021.jpg"
+import mayanksir2021 from "./photos/batch2021/mayanksir2021.jpg"
+import pulkitsir2021 from "./photos/batch2021/pulkitsir2021.jpg"
+import rashmimam2021 from "./photos/batch2021/rashmimam2021.jpg"
+import sanchitsir2021 from "./photos/batch2021/sanchitsir2021.jpg"
+import saqibsir2021 from "./photos/batch2021/saqibsir2021.jpg"
+import sumitsir2021 from "./photos/batch2021/sumitsir2021.jpg"
 
 const ASSETS = {
   logo,
@@ -132,6 +140,14 @@ const ASSETS = {
   milestone,
   departments,
   defaultImage,
+  pulkitsir2021,
+  ankitsir2021,
+  ishusir2021,
+  mayanksir2021,
+  rashmimam2021,
+  sanchitsir2021,
+  saqibsir2021,
+  sumitsir2021
 };
 
 export default ASSETS;

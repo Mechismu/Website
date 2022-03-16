@@ -1,5 +1,59 @@
 import ASSETS from "./Assets";
 
+const batch2021=[
+  {
+    name:"Pulkit Shamra (Captain)",
+    department:"Chasis",
+    email:"",
+    linkdin:"https://www.linkedin.com/in/pulkit-sharma-1406265a/",
+    photo:ASSETS.pulkitsir2021,
+
+  },{
+    name:"sanchit chourasiya (Vice Captain)",
+    department:"Brakes",
+    email:"",
+    linkdin:"https://www.linkedin.com/in/sanchit-chourasiya-63b827154/",
+    photo:ASSETS.sanchitsir2021,
+  },{
+    name:"Sumit Kumar Mehta (Mentor)",
+    department:"Steering and Suspension",
+    email:"",
+    linkdin:"https://www.linkedin.com/in/sumit-mehta007/",
+    photo:ASSETS.sumitsir2021,
+  },{
+    name:"Ishu Singh",
+    department:"Engines",
+    email:"",
+    linkdin:"https://www.linkedin.com/in/ishu-singh0209/",
+    photo:ASSETS.ishusir2021,
+  },{
+    name:"Mayank Agarwal",
+    department:"Steering and Suspension",
+    email:"",
+    linkdin:"https://www.linkedin.com/in/mayankagarwal23/",
+    photo:ASSETS.mayanksir2021,
+  },{
+    name:"MD Saqib",
+    department:"Steering and Suspension",
+    email:"",
+    linkdin:"https://www.linkedin.com/in/md-saqib-25039866/",
+    photo:ASSETS.saqibsir2021,
+  },{
+    name:"Ankit Kumar Singh",
+    department:"Mangement Head",
+    email:"",
+    linkdin:"https://www.linkedin.com/in/ankit-kumar-singh-13b680158/",
+    photo:ASSETS.ankitsir2021,
+  },{
+    name:"Rashi Lodwal",
+    department:"Sponsorship Head",
+    email:"",
+    linkdin:"https://www.linkedin.com/in/rashmi-lodwal-a93723161/",
+    photo:ASSETS.rashmimam2021,
+  }
+
+  
+]
 const batch2022 = [
   {
     name: "Akshay Kargaonkar",
@@ -426,6 +480,7 @@ const CONTENT = {
   batch2024,
   batch2018,
   batch2017,
+  batch2021,
   sponsors,
 };
 
